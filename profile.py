@@ -20,7 +20,7 @@ tour.Description(IG.Tour.TEXT,tourDescription)
 request.addTour(tour)
 
 node = request.RawPC("head")
-node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"
+node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU16-64-STD"
 
 node.addService(rspec.Execute(shell="sh",
                                 command="sudo bash /local/repository/install_spark.sh"))
