@@ -31,7 +31,7 @@ node.addService(rspec.Execute(shell="/bin/sh",
 node.addService(rspec.Execute(shell="/bin/sh",
                                 command="export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/")) 
 node.addService(rspec.Execute(shell="/bin/sh",
-                                command="sudo /opt/spark-2.4.0-bin-hadoop2.7/sbin/start-master.sh"))
+                                command="sudo /opt/spark-2.4.1-bin-hadoop2.7/sbin/start-master.sh"))
 
 # Print the RSpec to the enclosing page.
 portal.context.printRequestRSpec(request)
